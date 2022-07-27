@@ -1,15 +1,15 @@
 import React from 'react'
 import "./Header.css";
 import AddShoppingCartIcon from '@mui/icons-material/AddShoppingCart';
-import PetsIcon from '@mui/icons-material/Pets';
+import LocalLibraryIcon from '@mui/icons-material/LocalLibrary';
 import SearchIcon from '@mui/icons-material/Search';
 
 function Header() {
   return (
     <div className="header">
         <div className="header_logo">
-        <PetsIcon className="header_logoImage" fontSize="large" />
-        <h2 className="header_logoTitle">Fantastic Beasts</h2>
+        <LocalLibraryIcon className="header_logoImage" fontSize="large" />
+        <h2 className="header_logoTitle">Library</h2>
       </div>
       <div className="header_searchbar">
         <input type="text" className="header_searchInput" />
