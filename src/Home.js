@@ -1,10 +1,12 @@
 import React from 'react'
+import Header from './Header'
 import "./Home.css"
 import Product from './Product'
 
 function Home() {
   return (
     <div>
+        <Header />
         <div className="home">
             <div className="home_container">
                 <img src="https://www.filmquest.co/image/hero-middle/uploads/main-images/duke-humfrey-s-library_bodleian_david-iliff.jpg" alt="" className="home_image" />
